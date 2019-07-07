@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*landing pages*/
+
+
+#jumbo-land {
+	height: 100vh;
+	padding-top: 15%;
+	background-color: #333; /*off black*/
+	border-radius: 0; /*removes jumbotron's rounded corners*/
+	background-image: url(../images/pexels-photo-776826.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.jumbotron h1 {
+	font-family: 'Fira Sans', sans-serif;
+	color: #f2f2f2;
+	background-color: rgba(0,0,0, 0.75);
+	border-radius: 10px;
+}
+
+.jumbotron hr {
+	background-color: #fff;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+p {
+	color: white;
+}
+
+
+/*end landing*/
+
+#navbar {
+	background: #132170;
+}
+
+
+
+/*home page*/
+#jumbotron-home {
+	border-radius: 0;
+	background-image: url(../images/b.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#landing-home {
+	color: #fff
+	font-size: 5em;
+	padding-top: 5vh;
+	letter-spacing: 3px;
+	font-family: 'Fira Sans'
+}
+
+.kolumn {
+	background-color: red;
+}
+
+.card-text {
+	color: black;
+}
+
+.po {
+	background-color: #171717;
+}
+
+.bold {
+	font-size: 3em;
+}
+
+
+/*end home page*/
+
+/*about*/
+#landing-about {
+	color: #fff;
+	font-size: 2em;
+	padding-top: 5vh;
+	letter-spacing: 3px;
+	font-family: 'Fira Sans'
+}
+
+#mission {
+	height: 100%;
+	background-color: #171717;
+	color: #fff;
+	background-image: url(../images/b.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	border-radius: 0;
+}
+
+#team {
+	background-color: #171717;
+	color: #fff;
+}
+
+.card > .card-body > h3 {
+	color: black;
+}
+
+.capt {
+	background-color: rgba(0,0,0, 0.75);
+	border-radius: 10px;
+	height: 50px;
+	width: 80px;
+	position: relative;
+	left: 10px;
+	bottom: 190px;
+}
+
+
+/*end about*/
+
+/*contact*/
+
+#gmap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 60vh;
+	padding: 5px;
+}
+
+#ccc {
+	background-color: #171717;
+	color: #fff;
+	background-image: url(../images/b.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	border-radius: 0;
+}
+
+#landing-contact {
+	font-family: 'Fira Sans'
+}
+
+.sm {
+	color: #fff;
+}
+
+.fa-facebook-square {
+	color: #fff;
+}
+
+.fa-instagram {
+	color: #fff;
+}
+
+.fa-twitter-square {
+	color: #fff;
+}
+
+/*end contact*/
+
+/*recommendation*/
+.nav {
+	background-color: #333;
+	height: 100vh;
+	width: 	100px;
+	position: fixed;
+}
+
+#landing-reco {
+	color: #fff;
+	font-size: 5em;
+	padding-top: 5vh;
+	letter-spacing: 3px;
+	background-image: url(../images/b.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h3 {
+	color: #fff;
+}
+
+#reco {
+	background-color: #171717;
+}
+
+.background > h5 {
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	color: white;
+}
+
+#ppl {
+	text-align: center;
+}
+
+#ppl > h5 {
+	color: white;
+}
+
+/*end recommendation*/
+
+/*mobile*/
+
+@media only screen and (max-width: 400px) {
+
+#jumbo-land {
+	height: 100vh;
+	padding-top: 15%;
+	padding-right: 
+	background-color: #333; /*off black*/
+	border-radius: 0; /*removes jumbotron's rounded corners*/
+	background-image: url(../images/pexels-photo-776826.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	}
+
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+#jumbo-land {
+	height: 100vh;
+	padding-top: 15%;
+	padding-right: 
+	background-color: #333; /*off black*/
+	border-radius: 0; /*removes jumbotron's rounded corners*/
+	background-image: url(../images/pexels-photo-776826.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	}
